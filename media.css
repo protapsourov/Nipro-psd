@@ -1,0 +1,221 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* header media css start */
+.logo {
+    font-size: 26px;
+}
+ .header-menu ul li a {
+    margin: 0 !important;
+ }
+ .fd-icon {
+    min-width:265px;
+    padding: 0;
+}
+ .fd-icon[data-bs-popper] {
+    left: 0;
+    margin-top:.8rem;
+}
+   /* header media css end */
+
+      /* slider css start */
+      .slider-content {
+        padding:60px 0;
+    }
+    .slider-content h1 {
+        font-size:27px;
+    }
+    .slider-content p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .slider-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+       /* slider css end */
+
+     /* service media css start */
+    .s-paragraph p {
+        font-size: 14px;
+}
+    /* service media css end */
+
+     /* about media css start */
+     .s-title {
+         margin-top: 10px !important;
+        margin-bottom: 10px;
+        
+    }
+     .p-about1 {
+        margin-bottom:20px;
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .p-about2 {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    /* about media css end */
+
+    /* work portfolio media start */
+    .nav-button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .bottom-title {
+        padding: 10px 20px;
+    }
+    .bottom-title h2 {
+        margin-bottom: 0;
+        font-size: 16px;    
+    }
+    .middle-icon i {
+        margin-top: -45px;
+        font-size: 45px;
+    }
+    /* work portfolio media end */
+
+ }
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+     /* header media css start */
+
+   .header-menu ul li a {
+    margin: 0 !important;
+ }
+ .fd-icon {
+    min-width:345px;
+    padding: 0;
+}
+ .fd-icon[data-bs-popper] {
+    left: 0;
+    margin-top:.9rem;
+}
+   /* header media css end */
+   /* slider css start */
+   .slider-content {
+    padding: 110px 0;
+}
+.slider-content h1 {
+    font-size: 40px;
+}
+.slider-content p {
+    font-size: 15px;
+}
+   /* slider css end */
+    /* service media css start */
+ .s-paragraph p {
+    font-size: 15px;
+}
+ /* service media css end */
+  /* about media css start */
+  .s-title {
+      margin-top: 10px !important;
+    margin-bottom: 10px;
+    
+}
+ .p-about1 {
+    margin-bottom:20px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.p-about2 {
+    line-height: 22px;
+    font-size: 15px;
+}
+/* about media css end */
+
+/* work portfolio media start */
+.nav-button {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.bottom-title {
+    padding: 10px 20px;
+}
+.bottom-title h2 {
+    margin-bottom: 0;
+    font-size: 16px;    
+}
+.middle-icon i {
+    margin-top: -45px;
+    font-size: 45px;
+}
+/* work portfolio media end */
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+      /* header media css start */
+   .header-menu ul li a {
+    margin: 0 !important;
+ }
+ .fd-icon {
+    min-width:345px;
+    padding: 0;
+}
+ .fd-icon[data-bs-popper] {
+    left: 0;
+    margin-top:.9rem;
+}
+   /* header media css end */
+
+ /* service media css start */
+ .s-paragraph p {
+    margin-bottom: 40px;
+}
+ /* service media css end */
+
+ /* about media css start */
+ .s-title {
+     margin-top: 10px!important;
+    margin-bottom: 10px;
+    
+}
+ .p-about1 {
+    margin-bottom:20px;
+    line-height: 22px;
+    font-size: 15px;
+}
+.p-about2 {
+    line-height: 22px;
+    font-size: 15px;
+}
+/* about media css end */
+
+/* work portfolio media start */
+.nav-button {
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.bottom-title {
+    padding: 10px 20px;
+}
+.bottom-title h2 {
+    margin-bottom: 0;
+    font-size: 16px;    
+}
+.middle-icon i {
+    margin-top: -45px;
+    font-size: 45px;
+}
+/* work portfolio media end */
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    
+}
